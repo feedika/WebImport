@@ -14,7 +14,7 @@ class WebImportProvider extends ServiceProvider
     public function boot()
     {
 //        $this->loadViewsFrom(__DIR__.'/path/to/views', 'courier');
-        $this->loadMigrationsFrom(__DIR__.'/migrations');
+        $this->loadMigrationsFrom(__DIR__ . '/migrations');
     }
 
     /**
